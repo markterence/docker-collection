@@ -1,0 +1,17 @@
+version: '3.4'
+
+services: 
+  db:
+    container_name: mariadb_10_5
+    image: mariadb:10.5
+    environment: 
+        - MYSQL_ROOT_PASSWORD=root
+    ports: 
+        - "3306:3306"
+  pma:
+    container_name: mariadb_10_5
+    image: phpmyadmin/phpmyadmin
+    ports: 
+        - "8999:80"
+    environment: 
+        - PMA_HOST=db

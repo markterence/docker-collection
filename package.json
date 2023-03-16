@@ -1,0 +1,11 @@
+{
+  "name": "docker-collection",
+  "version": "1.0.0",
+  "repository": "https://github.com/markterence/docker-collection",
+  "author": "markterence <2003215+markterence@users.noreply.github.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "docker:mariadb:10.5": "docker-compose -f ./mariadb/10.5/docker-compose.yml"
+  }
+}
