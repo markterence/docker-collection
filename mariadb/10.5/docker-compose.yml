@@ -7,7 +7,7 @@ services:
     environment: 
         - MYSQL_ROOT_PASSWORD=root
     ports: 
-        - "3306:3306"
+        - "33066:3306"
   pma:
     container_name: mariadb_10_5
     image: phpmyadmin/phpmyadmin
