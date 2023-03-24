@@ -9,7 +9,7 @@ services:
     ports: 
         - "33066:3306"
   pma:
-    container_name: mariadb_10_5
+    container_name: mariadb_10_5_pma
     image: phpmyadmin/phpmyadmin
     ports: 
         - "8999:80"
