@@ -2,10 +2,12 @@
   "name": "docker-collection",
   "version": "1.0.0",
   "repository": "https://github.com/markterence/docker-collection",
-  "author": "markterence <2003215+markterence@users.noreply.github.com>",
+  "author": "markterence <hi@markterence.me>",
   "license": "MIT",
 
   "scripts": {
-    "docker:mariadb:10.5": "docker-compose -f ./mariadb/10.5/docker-compose.yml"
+    "docker:mariadb:10.5": "docker-compose -f ./mariadb/10.5/docker-compose.yml",
+    "docker:mariadb:10.11": "docker-compose -f ./mariadb/10.11/docker-compose.yml",
+    "docker:redis:7": "docker-compose -f ./redis/7/docker-compose.yml"
   }
 }
